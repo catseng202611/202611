@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>08｜圖片 img 與 alt</title>
+</head>
+<body>
+    <!-- 同一張示意圖放在兩個位置，用於比較路徑與屬性。 -->
+    <img src="images/pic.jpg" alt="圖片">
+    <img src="pic.jpg" alt="美麗的風景">
+    <img src="pic.jpg" alt="美麗的風景" title="這是風景圖">
+    <img src="pic.jpg" alt="美麗的風景" width="300">
+    <img src="pic.jpg" alt="美麗的風景" height="200">
+
+    <!-- Base64 語法：<img src="data:image/{格式};base64,{編碼字串}" alt="描述文字"> -->
+    <!-- 投影片的 Base64 資料解碼為透明像素，故保留原字串供觀察。 -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
+        alt="紅點" title="1x1 紅點圖片">
+</body>
+</html>
